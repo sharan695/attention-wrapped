@@ -21,15 +21,17 @@ You'll need to repeat this for each new build.
 
 ## Forum History Plus: Full Disk Access
 
-macOS protects Messages and call history. The first time you click **Show my history, messages, and calls**, your Chrome history appears right away, and the Messages and Calls tabs show an **Open Full Disk Access Settings** button:
+macOS protects Messages, call history, and contacts. The first time you click **Show my history, messages, and calls**, your Chrome history appears right away, and a banner shows one **Open Full Disk Access Settings** button:
 
-1. Click the button. If prompted, first click **Move to Applications and Reopen**.
-2. Turn on **Forum History Plus** in the list. If it isn't listed, click **+**, choose Applications › Forum History Plus, and click Open.
-3. If macOS asks, choose **Quit & Reopen**. The app picks up where it left off.
+1. Click the button. System Settings opens the Full Disk Access list. If you opened the app straight from the disk image, it first copies itself into Applications and reopens from there.
+2. Turn on **Forum History Plus**. If it isn't listed, drag the app icon from the banner into the list, or click **+** and choose Applications › Forum History Plus.
+3. If macOS asks, click **Quit & Reopen**. Your messages, calls, and contact names then load on their own.
 
-Manual path: System Settings › Privacy & Security › Full Disk Access.
+Settings didn't open? Go to System Settings › Privacy & Security › Full Disk Access.
 
-Development builds lose this permission whenever you install a new build. Remove the old entry and turn it on again.
+After the first time, the app loads your data on every launch without asking again.
+
+Development builds lose this permission whenever you install a new build. Remove the old entry from the list and turn it on again.
 
 ## Feedback
 
